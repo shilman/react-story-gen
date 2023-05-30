@@ -1,0 +1,29 @@
+{
+  "name": "react-story-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "react-story-gen": "./bin/index.ts"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "react": "^18.2.0",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "glob": "^10.2.6",
+    "prettier": "^2.8.8",
+    "react-docgen": "^5.4.3",
+    "ts-dedent": "^2.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+export const NamedComponent = (props: any) => <div />;
